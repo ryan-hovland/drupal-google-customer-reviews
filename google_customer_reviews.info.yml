@@ -1,0 +1,8 @@
+name: 'Google Customer Reviews'
+type: module
+description: 'Integrates Google Customer Reviews into your Drupal site.'
+package: Commerce
+core_version_requirement: ^10.3 || ^11
+dependencies:
+  - drupal:commerce
+  - drupal:commerce_checkout

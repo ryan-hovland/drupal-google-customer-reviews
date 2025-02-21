@@ -1,0 +1,22 @@
+{
+    "name": "drupal/google_customer_reviews",
+    "description": "Integrates Google Customer Reviews into your Drupal site",
+    "type" : "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Ryan Hovland (rhovland)",
+            "homepage": "https://www.drupal.org/u/rhovland",
+            "role": "Maintainer"
+        }
+    ],
+    "homepage": "https://www.drupal.org/project/google_customer_reviews",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/google_customer_reviews",
+        "source": "https://git.drupalcode.org/project/google_customer_reviews"
+    },
+    "require": {
+        "drupal/core": "^10.2 || ^11",
+        "drupal/commerce": "^2.0 || ^3.0"
+    }
+}

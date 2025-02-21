@@ -1,0 +1,5 @@
+google_customer_reviews.settings:
+  title: 'Google Customer Reviews'
+  parent: 'system.admin_config_services'
+  description: 'Configure Google Customer Reviews integration'
+  route_name: google_customer_reviews.settings

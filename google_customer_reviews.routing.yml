@@ -1,0 +1,7 @@
+google_customer_reviews.settings:
+  path: '/admin/config/services/google-customer-reviews'
+  defaults:
+    _form: '\Drupal\google_customer_reviews\Form\GoogleCustomerReviewsSettingsForm'
+    _title: 'Google Customer Reviews settings'
+  requirements:
+    _permission: 'administer google customer reviews'

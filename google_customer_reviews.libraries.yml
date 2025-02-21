@@ -1,0 +1,11 @@
+badge:
+  js:
+    https://apis.google.com/js/platform.js: { type: external, attributes: { async: true, defer: true } }
+
+optin:
+  js:
+    js/google-customer-reviews-optin.js: {}
+    https://apis.google.com/js/platform.js: { type: external, attributes: { async: true, defer: true, onload: renderOptIn } }
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
